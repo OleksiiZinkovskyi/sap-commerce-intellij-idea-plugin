@@ -54,5 +54,6 @@
                         serviceImplementation="com.intellij.idea.plugin.hybris.tools.remote.console.persistence.services.impl.DefaultConsolePersistenceService"/>
         <projectService serviceImplementation="com.intellij.idea.plugin.hybris.tools.remote.console.persistence.services.impl.JsonIOUtil"/>
         <projectService serviceImplementation="com.intellij.idea.plugin.hybris.tools.remote.console.persistence.ui.listeners.HybrisConsoleQueryPanelEventManager"/>
+        <frameworkSupport implementation="com.intellij.idea.plugin.hybris.config.HybrisFrameworkSupportProvider"/>
     </extensions>
 </idea-plugin>
